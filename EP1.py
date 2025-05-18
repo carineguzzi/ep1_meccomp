@@ -183,7 +183,7 @@ L = 0.1
 def z(t):
     return 0 if t < 2 else 0.25
 
-def z_lombada(t, periodo=0.5):
+def z_lombada(t, periodo = 2/3):#definindo T = 2/3
     n = np.floor(2 / periodo)
     t1 = n * periodo
     t2 = (n + 10) * periodo
