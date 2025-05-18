@@ -11,7 +11,6 @@ e o sistema partindo do repouso. Use: """
 #imports
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.integrate import solve_ivp
 
 
 #variar o passo h utilizado em todo o código
